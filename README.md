@@ -1,16 +1,35 @@
-# React + Vite
+# React Setup & JSX Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fundamental study designed to understand the basics of React, JSX syntax, and component-based architecture.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Components:** Creating and nesting functional components like `Greeting`, `ProfileCard`, and `LikeCounter`.
+**JSX Expressions:** Rendering dynamic data within curly braces `{}`.
+**State Management:** Utilizing the `useState` hook to create interactive counters and dynamic UI updates.
+**Props:** Simulating data flow between components.
+**Bonus:** Implementation of an external `LikeCounter.jsx` component featuring conditional rendering and independent state.
 
-## React Compiler
+## 🛠️ Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
+```bash
+# 1. Clone the repository
+git clone https://github.com/BozgunBer-2506/React_JSX_practice.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Navigate to the project directory
+cd React_Setup_JSX
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+📝 Development Notes
+
+This project was bootstrapped with Vite. To ensure Hot Module Replacement (HMR) works correctly on Windows environments within Git Bash/WSL, usePolling: true has been configured in vite.config.js.
+
+Crafted by The_Bozgun
