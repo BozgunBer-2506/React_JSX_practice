@@ -1,0 +1,18 @@
+/* Einfaches Styling für die Aufgabenstellung */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.profile-card {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.status {
+  font-weight: bold;
+}
